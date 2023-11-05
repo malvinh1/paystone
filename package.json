@@ -1,7 +1,7 @@
 {
   "name": "paystone",
   "scripts": {
-    "dev": "concurrently --kill-others \"yarn --cwd backend dev\""
+    "dev": "concurrently --kill-others \"yarn --cwd backend dev\" \"yarn --cwd frontend start\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
