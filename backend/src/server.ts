@@ -1,9 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import 'dotenv/config';
 
 const app = express();
 
-mongoose.connect('mongodb://127.0.0.1:27017/paystonedb');
+mongoose.connect(process.env.DATABASE_URL);
 
 const db = mongoose.connection;
 
