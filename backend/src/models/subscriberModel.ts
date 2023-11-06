@@ -16,6 +16,6 @@ const SubscriberSchema = new mongoose.Schema({
   },
 });
 
-const Subscriber = mongoose.model('SubscriberModel', SubscriberSchema);
+const Subscriber = mongoose.model('Subscriber', SubscriberSchema);
 
 export default Subscriber;
