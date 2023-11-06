@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"yarn build:watch\"",
+    "start": "concurrently \"PORT=3006 react-scripts start\" \"yarn build:watch\"",
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
